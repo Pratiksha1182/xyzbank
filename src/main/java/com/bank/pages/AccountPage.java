@@ -23,7 +23,7 @@ public class AccountPage extends Utility {
     public void clickOnDepositBtn(){ clickOnElement(depositBtn);}
     public String getDepositSuccessfulMessage(){ return getTextFromElement(depositSuccessfulMsg);}
     public void clickOnWithdrawlBtn(){ clickOnElement(withdrawButton);}
-    public void enterAmountToBeWithdrawn(){sendTextToElement(amountToBeWithdrawnField,"10");}
+    public void enterAmountToBeWithdrawn(){sendTextToElement(amountField,"10");}
     public void clickOnWithdrawBtn(){ clickOnElement(withdrawBtn);}
     public String getTransactionSuccessfulMessage(){return getTextFromElement(transactionSuccessfulMsg);}
     public void clickOnHomeButton(){clickOnElement(homeButton);}
